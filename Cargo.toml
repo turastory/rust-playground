@@ -1,0 +1,221 @@
+[package]
+name = "rust-playground"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+tokio = { version = "1", features = ["full"] }
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+tauri = { version = "1.5", optional = true }
+
+[features]
+default = []
+tauri-features = ["tauri"]
+
+[lib]
+name = "rust_playground"
+path = "src/lib.rs"
+
+# Exercises as binaries
+[[bin]]
+name = "intro1"
+path = "exercises/00_intro/intro1.rs"
+
+[[bin]]
+name = "intro2"
+path = "exercises/00_intro/intro2.rs"
+
+[[bin]]
+name = "variables1"
+path = "exercises/01_variables/variables1.rs"
+
+[[bin]]
+name = "variables2"
+path = "exercises/01_variables/variables2.rs"
+
+[[bin]]
+name = "variables3"
+path = "exercises/01_variables/variables3.rs"
+
+[[bin]]
+name = "variables4"
+path = "exercises/01_variables/variables4.rs"
+
+[[bin]]
+name = "functions1"
+path = "exercises/02_functions/functions1.rs"
+
+[[bin]]
+name = "functions2"
+path = "exercises/02_functions/functions2.rs"
+
+[[bin]]
+name = "functions3"
+path = "exercises/02_functions/functions3.rs"
+
+[[bin]]
+name = "functions4"
+path = "exercises/02_functions/functions4.rs"
+
+[[bin]]
+name = "primitive_types1"
+path = "exercises/03_primitive_types/primitive_types1.rs"
+
+[[bin]]
+name = "primitive_types2"
+path = "exercises/03_primitive_types/primitive_types2.rs"
+
+[[bin]]
+name = "primitive_types3"
+path = "exercises/03_primitive_types/primitive_types3.rs"
+
+[[bin]]
+name = "primitive_types4"
+path = "exercises/03_primitive_types/primitive_types4.rs"
+
+[[bin]]
+name = "control_flow1"
+path = "exercises/04_control_flow/control_flow1.rs"
+
+[[bin]]
+name = "control_flow2"
+path = "exercises/04_control_flow/control_flow2.rs"
+
+[[bin]]
+name = "control_flow3"
+path = "exercises/04_control_flow/control_flow3.rs"
+
+[[bin]]
+name = "control_flow4"
+path = "exercises/04_control_flow/control_flow4.rs"
+
+[[bin]]
+name = "structs1"
+path = "exercises/05_structs/structs1.rs"
+
+[[bin]]
+name = "structs2"
+path = "exercises/05_structs/structs2.rs"
+
+[[bin]]
+name = "structs3"
+path = "exercises/05_structs/structs3.rs"
+
+[[bin]]
+name = "structs4"
+path = "exercises/05_structs/structs4.rs"
+
+[[bin]]
+name = "enums1"
+path = "exercises/06_enums/enums1.rs"
+
+[[bin]]
+name = "enums2"
+path = "exercises/06_enums/enums2.rs"
+
+[[bin]]
+name = "enums3"
+path = "exercises/06_enums/enums3.rs"
+
+[[bin]]
+name = "enums4"
+path = "exercises/06_enums/enums4.rs"
+
+[[bin]]
+name = "move_semantics1"
+path = "exercises/07_move_semantics/move_semantics1.rs"
+
+[[bin]]
+name = "move_semantics2"
+path = "exercises/07_move_semantics/move_semantics2.rs"
+
+[[bin]]
+name = "move_semantics3"
+path = "exercises/07_move_semantics/move_semantics3.rs"
+
+[[bin]]
+name = "move_semantics4"
+path = "exercises/07_move_semantics/move_semantics4.rs"
+
+[[bin]]
+name = "ownership1"
+path = "exercises/08_ownership/ownership1.rs"
+
+[[bin]]
+name = "borrowing1"
+path = "exercises/09_borrowing/borrowing1.rs"
+
+[[bin]]
+name = "borrowing2"
+path = "exercises/09_borrowing/borrowing2.rs"
+
+[[bin]]
+name = "strings1"
+path = "exercises/10_strings/strings1.rs"
+
+[[bin]]
+name = "strings2"
+path = "exercises/10_strings/strings2.rs"
+
+[[bin]]
+name = "vecs1"
+path = "exercises/11_vecs/vecs1.rs"
+
+[[bin]]
+name = "hashmaps1"
+path = "exercises/12_hashmaps/hashmaps1.rs"
+
+[[bin]]
+name = "options1"
+path = "exercises/13_options/options1.rs"
+
+[[bin]]
+name = "errors1"
+path = "exercises/14_error_handling/errors1.rs"
+
+[[bin]]
+name = "generics1"
+path = "exercises/15_generics/generics1.rs"
+
+[[bin]]
+name = "traits1"
+path = "exercises/16_traits/traits1.rs"
+
+[[bin]]
+name = "lifetimes1"
+path = "exercises/17_lifetimes/lifetimes1.rs"
+
+[[bin]]
+name = "iterators1"
+path = "exercises/18_iterators/iterators1.rs"
+
+[[bin]]
+name = "closures1"
+path = "exercises/19_closures/closures1.rs"
+
+[[bin]]
+name = "smart_pointers1"
+path = "exercises/20_smart_pointers/smart_pointers1.rs"
+
+[[bin]]
+name = "async1"
+path = "exercises/21_async/async1.rs"
+
+[[bin]]
+name = "tauri_basics1"
+path = "exercises/22_tauri_basics/tauri_basics1.rs"
+
+[[bin]]
+name = "tauri_commands1"
+path = "exercises/23_tauri_commands/tauri_commands1.rs"
+
+[[bin]]
+name = "tauri_state1"
+path = "exercises/24_tauri_state/tauri_state1.rs"
+
+[profile.dev]
+opt-level = 0
+
+[profile.release]
+opt-level = 3
