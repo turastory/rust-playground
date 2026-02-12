@@ -9,7 +9,5 @@
 // 상수 이름은 대문자와 언더스코어를 사용하는 것이 관례입니다
 
 fn main() {
-    const MAX_POINTS: u32 = 100_000;
-
     println!("최대 포인트: {}", MAX_POINTS);
 }

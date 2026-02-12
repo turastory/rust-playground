@@ -6,7 +6,6 @@
 
 fn main() {
     let cat = ("Fluffy", 3.5);
-    let (name, age) = cat;
     
     // TODO: 튜플에서 이름과 나이를 추출하세요
     // 힌트: let (name, age) = cat;

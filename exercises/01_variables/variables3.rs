@@ -8,10 +8,10 @@
 fn main() {
     let spaces = "   ";  // 문자열
     println!("spaces = '{}'", spaces);
-
+    
     // TODO: spaces를 섀도잉하여 문자열의 길이를 저장하세요
     // 힌트: spaces.len() 메서드를 사용하세요
-    let spaces = spaces.len();
+    // let spaces = ???;
     
     println!("spaces의 길이 = {}", spaces);
 }

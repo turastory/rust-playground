@@ -9,7 +9,7 @@ fn main() {
     let my_char = 'R';
     
     // TODO: 부동소수점 변수를 선언하세요
-    let pi = 3.14;
+    // let pi = ???;
     
     println!("Rust는 재미있나요? {}", is_rust_fun);
     println!("내가 좋아하는 글자: {}", my_char);

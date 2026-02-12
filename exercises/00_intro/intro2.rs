@@ -18,6 +18,4 @@ fn main() {
     
     // TODO: "Hello, Rust!" 메시지를 출력하세요
     // 힌트: println!("Hello, {}!", language); 형식을 사용하세요
-
-    println!("Hello, {}!", language);
 }

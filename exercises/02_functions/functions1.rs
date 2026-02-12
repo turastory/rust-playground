@@ -10,7 +10,3 @@ fn main() {
 
 // TODO: 이 함수를 구현하세요
 // 힌트: fn call_me() { ... }
-
-fn call_me() {
-    println!("함수가 호출되었습니다!");
-}

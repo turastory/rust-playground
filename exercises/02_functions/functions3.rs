@@ -17,7 +17,7 @@ fn main() {
 }
 
 // TODO: 반환 타입을 추가하고 값을 반환하세요
-fn square(num: i32) -> i32 {
+fn square(num: i32) {
     num * num
 }
 

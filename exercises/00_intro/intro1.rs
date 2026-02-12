@@ -14,5 +14,4 @@
 fn main() {
     // TODO: "Hello, World!" 메시지를 출력하세요
     // 힌트: println! 매크로를 사용하세요 (느낌표 주의!)
-    println!("Hello, World!")
 }

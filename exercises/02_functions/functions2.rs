@@ -10,7 +10,7 @@ fn main() {
 }
 
 // TODO: 매개변수 타입을 추가하세요
-fn call_me(num: i32) {
+fn call_me(num) {
     for i in 0..num {
         println!("Ring! 호출 번호 {}", i + 1);
     }

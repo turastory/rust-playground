@@ -6,7 +6,7 @@
 
 fn main() {
     // TODO: 변수에 정수 값을 할당하세요
-    let x = 42;
+    let x;
     
     println!("x = {}", x);
 }

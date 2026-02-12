@@ -15,7 +15,7 @@
 // 실행: cargo run --bin variables1
 
 fn main() {
-    let mut x = 5;
+    let x = 5;
     println!("x = {}", x);
     
     x = 6;  // ❌ 에러가 발생합니다!

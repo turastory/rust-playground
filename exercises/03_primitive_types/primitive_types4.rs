@@ -9,7 +9,6 @@ fn main() {
     
     // TODO: 배열의 세 번째 요소(인덱스 2)를 출력하세요
     // 힌트: numbers[2]
-    let third = numbers[2];
     
     println!("세 번째 숫자는 {}입니다.", third);
 }

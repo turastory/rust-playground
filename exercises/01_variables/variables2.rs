@@ -7,7 +7,7 @@
 // 실행: cargo run --bin variables2
 
 fn main() {
-    let x = 0;
+    let x;
     
     println!("x = {}", x);  // ❌ 에러! x가 초기화되지 않았습니다
 }
